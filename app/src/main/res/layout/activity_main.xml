@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="Вход"
+        android:id="@+id/vhod"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/welcome"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/white"
+        android:text="Добро пожаловать"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/reg"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:text="      Выполните вход \n или зарегистрируйтесь"
+        android:textSize="19sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:paddingStart="15dp"
+        android:hint="Введите вашу почту"
+        android:layout_width="340dp"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:paddingStart="15dp"
+        android:hint="Введите пароль"
+        android:layout_width="340dp"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/enter"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/grey"
+        android:layout_gravity="center"
+        android:text="Войти"
+        android:layout_width="340dp"
+        android:layout_height="61dp"/>
+
+
+</LinearLayout>
